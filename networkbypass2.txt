@@ -1,0 +1,3 @@
+game:GetService("RunService").RenderStepped:Connect(function()
+    sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
+end)

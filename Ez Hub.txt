@@ -1,0 +1,671 @@
+-- Instances:
+
+local EzHubLauncher = Instance.new("ScreenGui")
+local Launcher = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Minimize = Instance.new("TextButton")
+local UnderLine = Instance.new("ImageLabel")
+local Container = Instance.new("ImageLabel")
+local UnderLineC = Instance.new("ImageLabel")
+local UnderLineC_2 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local DropDown = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local DropDownButton = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local _02 = Instance.new("TextButton")
+local _15 = Instance.new("TextButton")
+local _16 = Instance.new("TextButton")
+local _17 = Instance.new("TextButton")
+local _18 = Instance.new("TextButton")
+local _19 = Instance.new("TextButton")
+local _20 = Instance.new("TextButton")
+local _21 = Instance.new("TextButton")
+local _22 = Instance.new("TextButton")
+local _23 = Instance.new("TextButton")
+local UnderLineC_3 = Instance.new("ImageLabel")
+local UnderLineC_4 = Instance.new("ImageLabel")
+local Launch = Instance.new("TextButton")
+local ApplyAimRange_Roundify_4px = Instance.new("ImageLabel")
+local CopyDiscord = Instance.new("TextButton")
+local ApplyAimRange_Roundify_4px_2 = Instance.new("ImageLabel")
+local Donate = Instance.new("TextButton")
+local ApplyAimRange_Roundify_4px_3 = Instance.new("ImageLabel")
+
+--Properties:
+
+EzHubLauncher.Name = "EzHubLauncher"
+EzHubLauncher.Parent = game.CoreGui
+
+Launcher.Name = "Launcher"
+Launcher.Parent = EzHubLauncher
+Launcher.AnchorPoint = Vector2.new(0.5, 0.5)
+Launcher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Launcher.BackgroundTransparency = 1.000
+Launcher.Position = UDim2.new(0.5, 0, 0.400000006, 0)
+Launcher.Size = UDim2.new(0, 183, 0, 32)
+Launcher.ZIndex = 2
+Launcher.Image = "rbxassetid://3570695787"
+Launcher.ImageColor3 = Color3.fromRGB(50, 50, 50)
+Launcher.ScaleType = Enum.ScaleType.Slice
+Launcher.SliceCenter = Rect.new(100, 100, 100, 100)
+Launcher.SliceScale = 0.040
+
+Title.Name = "Title"
+Title.Parent = Launcher
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(-0.00613498688, 0, -0.0349999666, 0)
+Title.Size = UDim2.new(1.00070024, 0, 1, 0)
+Title.ZIndex = 3
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Ez Hub Launcher"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 18.000
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Launcher
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.Position = UDim2.new(0.846625805, 0, 0.152500033, 0)
+Minimize.Size = UDim2.new(0, 23, 0, 19)
+Minimize.ZIndex = 3
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextSize = 30.000
+Minimize.TextWrapped = true
+
+UnderLine.Name = "UnderLine"
+UnderLine.Parent = Launcher
+UnderLine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnderLine.BackgroundTransparency = 1.000
+UnderLine.Position = UDim2.new(0, 0, 0.899999976, 0)
+UnderLine.Size = UDim2.new(0, 183, 0, 5)
+UnderLine.ZIndex = 2
+UnderLine.Image = "rbxassetid://3570695787"
+UnderLine.ImageColor3 = Color3.fromRGB(18, 98, 159)
+UnderLine.ScaleType = Enum.ScaleType.Slice
+UnderLine.SliceCenter = Rect.new(100, 100, 100, 100)
+UnderLine.SliceScale = 0.040
+
+Container.Name = "Container"
+Container.Parent = Launcher
+Container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container.BackgroundTransparency = 1.000
+Container.Position = UDim2.new(0, 0, 0.957499504, 0)
+Container.Size = UDim2.new(1, 0, 6.98124981, 0)
+Container.Image = "rbxassetid://3570695787"
+Container.ImageColor3 = Color3.fromRGB(50, 50, 50)
+Container.ScaleType = Enum.ScaleType.Slice
+Container.SliceCenter = Rect.new(100, 100, 100, 100)
+Container.SliceScale = 0.040
+
+UnderLineC.Name = "UnderLineC"
+UnderLineC.Parent = Container
+UnderLineC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnderLineC.BackgroundTransparency = 1.000
+UnderLineC.Position = UDim2.new(-0.00546448072, 0, 0.184424534, 0)
+UnderLineC.Size = UDim2.new(0, 183, 0, 4)
+UnderLineC.ZIndex = 3
+UnderLineC.Image = "rbxassetid://3570695787"
+UnderLineC.ImageColor3 = Color3.fromRGB(18, 98, 159)
+UnderLineC.ScaleType = Enum.ScaleType.Slice
+UnderLineC.SliceCenter = Rect.new(100, 100, 100, 100)
+UnderLineC.SliceScale = 0.040
+
+UnderLineC_2.Name = "UnderLineC"
+UnderLineC_2.Parent = Container
+UnderLineC_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnderLineC_2.BackgroundTransparency = 1.000
+UnderLineC_2.Position = UDim2.new(0, 0, 0.991999984, 0)
+UnderLineC_2.Size = UDim2.new(0, 183, 0, 4)
+UnderLineC_2.Image = "rbxassetid://3570695787"
+UnderLineC_2.ImageColor3 = Color3.fromRGB(18, 98, 159)
+UnderLineC_2.ScaleType = Enum.ScaleType.Slice
+UnderLineC_2.SliceCenter = Rect.new(100, 100, 100, 100)
+UnderLineC_2.SliceScale = 0.040
+
+TextLabel.Parent = Container
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.0350000001, 0)
+TextLabel.Size = UDim2.new(0, 183, 0, 30)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made by CEO of Africa#8147"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16.000
+
+DropDown.Name = "DropDown"
+DropDown.Parent = Container
+DropDown.AnchorPoint = Vector2.new(0.5, 0.5)
+DropDown.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+DropDown.BorderSizePixel = 0
+DropDown.Position = UDim2.new(0.5, 0, 0.314549148, 0)
+DropDown.Size = UDim2.new(0, 133, 0, 29)
+
+TextLabel_2.Parent = DropDown
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0700000003, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 98, 0, 29)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Latest Version (2.3)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+DropDownButton.Name = "DropDownButton"
+DropDownButton.Parent = DropDown
+DropDownButton.AnchorPoint = Vector2.new(0.5, 0.5)
+DropDownButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DropDownButton.BackgroundTransparency = 1.000
+DropDownButton.Position = UDim2.new(0.899999976, 0, 0.5, 0)
+DropDownButton.Size = UDim2.new(0, 20, 0, 20)
+DropDownButton.Font = Enum.Font.SourceSans
+DropDownButton.Text = "+"
+DropDownButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DropDownButton.TextSize = 20.000
+
+ScrollingFrame.Parent = DropDown
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.967279911, 0)
+ScrollingFrame.Size = UDim2.new(1, 0, 0.162714481, 0)
+ScrollingFrame.ZIndex = 5
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 13.3999996, 0)
+ScrollingFrame.ScrollBarThickness = 8
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout.CellPadding = UDim2.new(0, 5, 0, 8)
+UIGridLayout.CellSize = UDim2.new(0, 100, 0, 30)
+
+_02.Name = "0.2"
+_02.Parent = ScrollingFrame
+_02.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_02.BorderSizePixel = 0
+_02.Size = UDim2.new(0, 200, 0, 50)
+_02.Visible = false
+_02.ZIndex = 6
+_02.Font = Enum.Font.SourceSans
+_02.Text = "(ALPHA) 0.2"
+_02.TextColor3 = Color3.fromRGB(255, 255, 255)
+_02.TextSize = 14.000
+
+_15.Name = "1.5"
+_15.Parent = ScrollingFrame
+_15.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_15.BorderSizePixel = 0
+_15.Size = UDim2.new(0, 200, 0, 50)
+_15.Visible = false
+_15.ZIndex = 6
+_15.Font = Enum.Font.SourceSans
+_15.Text = "1.5"
+_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+_15.TextSize = 14.000
+
+_16.Name = "1.6"
+_16.Parent = ScrollingFrame
+_16.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_16.BorderSizePixel = 0
+_16.Size = UDim2.new(0, 200, 0, 50)
+_16.Visible = false
+_16.ZIndex = 6
+_16.Font = Enum.Font.SourceSans
+_16.Text = "1.6"
+_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+_16.TextSize = 14.000
+
+_17.Name = "1.7"
+_17.Parent = ScrollingFrame
+_17.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_17.BorderSizePixel = 0
+_17.Size = UDim2.new(0, 200, 0, 50)
+_17.Visible = false
+_17.ZIndex = 6
+_17.Font = Enum.Font.SourceSans
+_17.Text = "1.7"
+_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+_17.TextSize = 14.000
+
+_18.Name = "1.8"
+_18.Parent = ScrollingFrame
+_18.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_18.BorderSizePixel = 0
+_18.Size = UDim2.new(0, 200, 0, 50)
+_18.Visible = false
+_18.ZIndex = 6
+_18.Font = Enum.Font.SourceSans
+_18.Text = "1.8"
+_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+_18.TextSize = 14.000
+
+_19.Name = "1.9"
+_19.Parent = ScrollingFrame
+_19.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_19.BorderSizePixel = 0
+_19.Size = UDim2.new(0, 200, 0, 50)
+_19.Visible = false
+_19.ZIndex = 6
+_19.Font = Enum.Font.SourceSans
+_19.Text = "1.9"
+_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+_19.TextSize = 14.000
+
+_20.Name = "2.0"
+_20.Parent = ScrollingFrame
+_20.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_20.BorderSizePixel = 0
+_20.Size = UDim2.new(0, 200, 0, 50)
+_20.Visible = false
+_20.ZIndex = 6
+_20.Font = Enum.Font.SourceSans
+_20.Text = "2.0"
+_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+_20.TextSize = 14.000
+
+_21.Name = "2.1"
+_21.Parent = ScrollingFrame
+_21.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_21.BorderSizePixel = 0
+_21.Size = UDim2.new(0, 200, 0, 50)
+_21.Visible = false
+_21.ZIndex = 6
+_21.Font = Enum.Font.SourceSans
+_21.Text = "2.1"
+_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+_21.TextSize = 14.000
+
+_22.Name = "2.2"
+_22.Parent = ScrollingFrame
+_22.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_22.BorderSizePixel = 0
+_22.Size = UDim2.new(0, 200, 0, 50)
+_22.Visible = false
+_22.ZIndex = 6
+_22.Font = Enum.Font.SourceSans
+_22.Text = "2.2"
+_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+_22.TextSize = 14.000
+
+_23.Name = "2.3"
+_23.Parent = ScrollingFrame
+_23.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+_23.BorderSizePixel = 0
+_23.Size = UDim2.new(0, 200, 0, 50)
+_23.Visible = false
+_23.ZIndex = 6
+_23.Font = Enum.Font.SourceSans
+_23.Text = "2.3"
+_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+_23.TextSize = 14.000
+
+UnderLineC_3.Name = "UnderLineC"
+UnderLineC_3.Parent = Container
+UnderLineC_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnderLineC_3.BackgroundTransparency = 1.000
+UnderLineC_3.Position = UDim2.new(0.136612028, 0, 0.373948544, 0)
+UnderLineC_3.Size = UDim2.new(0, 133, 0, 4)
+UnderLineC_3.ZIndex = 7
+UnderLineC_3.Image = "rbxassetid://3570695787"
+UnderLineC_3.ImageColor3 = Color3.fromRGB(18, 98, 159)
+UnderLineC_3.ScaleType = Enum.ScaleType.Slice
+UnderLineC_3.SliceCenter = Rect.new(100, 100, 100, 100)
+UnderLineC_3.SliceScale = 0.040
+
+UnderLineC_4.Name = "UnderLineC"
+UnderLineC_4.Parent = Container
+UnderLineC_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnderLineC_4.BackgroundTransparency = 1.000
+UnderLineC_4.Position = UDim2.new(0, 0, 0.764688849, 0)
+UnderLineC_4.Size = UDim2.new(0, 183, 0, 4)
+UnderLineC_4.Image = "rbxassetid://3570695787"
+UnderLineC_4.ImageColor3 = Color3.fromRGB(18, 98, 159)
+UnderLineC_4.ScaleType = Enum.ScaleType.Slice
+UnderLineC_4.SliceCenter = Rect.new(100, 100, 100, 100)
+UnderLineC_4.SliceScale = 0.040
+
+Launch.Name = "Launch"
+Launch.Parent = Container
+Launch.AnchorPoint = Vector2.new(0.5, 0.5)
+Launch.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Launch.BackgroundTransparency = 1.000
+Launch.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Launch.BorderSizePixel = 0
+Launch.Position = UDim2.new(0.495928973, 0, 0.88852483, 0)
+Launch.Size = UDim2.new(0, 133, 0, 29)
+Launch.ZIndex = 3
+Launch.Font = Enum.Font.SourceSans
+Launch.Text = "Launch"
+Launch.TextColor3 = Color3.fromRGB(255, 255, 255)
+Launch.TextSize = 14.000
+
+ApplyAimRange_Roundify_4px.Name = "ApplyAimRange_Roundify_4px"
+ApplyAimRange_Roundify_4px.Parent = Launch
+ApplyAimRange_Roundify_4px.Active = true
+ApplyAimRange_Roundify_4px.AnchorPoint = Vector2.new(0.5, 0.5)
+ApplyAimRange_Roundify_4px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplyAimRange_Roundify_4px.BackgroundTransparency = 1.000
+ApplyAimRange_Roundify_4px.Position = UDim2.new(0.5, 0, 0.5, 0)
+ApplyAimRange_Roundify_4px.Selectable = true
+ApplyAimRange_Roundify_4px.Size = UDim2.new(1, 0, 1, 0)
+ApplyAimRange_Roundify_4px.ZIndex = 2
+ApplyAimRange_Roundify_4px.Image = "rbxassetid://3570695787"
+ApplyAimRange_Roundify_4px.ImageColor3 = Color3.fromRGB(70, 70, 70)
+ApplyAimRange_Roundify_4px.ScaleType = Enum.ScaleType.Slice
+ApplyAimRange_Roundify_4px.SliceCenter = Rect.new(100, 100, 100, 100)
+ApplyAimRange_Roundify_4px.SliceScale = 0.040
+
+CopyDiscord.Name = "CopyDiscord"
+CopyDiscord.Parent = Container
+CopyDiscord.AnchorPoint = Vector2.new(0.5, 0.5)
+CopyDiscord.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+CopyDiscord.BackgroundTransparency = 1.000
+CopyDiscord.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CopyDiscord.BorderSizePixel = 0
+CopyDiscord.Position = UDim2.new(0.49831304, 0, 0.658912778, 0)
+CopyDiscord.Size = UDim2.new(0, 132, 0, 29)
+CopyDiscord.ZIndex = 3
+CopyDiscord.Font = Enum.Font.SourceSans
+CopyDiscord.Text = "Copy Discord"
+CopyDiscord.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyDiscord.TextSize = 14.000
+
+ApplyAimRange_Roundify_4px_2.Name = "ApplyAimRange_Roundify_4px"
+ApplyAimRange_Roundify_4px_2.Parent = CopyDiscord
+ApplyAimRange_Roundify_4px_2.Active = true
+ApplyAimRange_Roundify_4px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+ApplyAimRange_Roundify_4px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplyAimRange_Roundify_4px_2.BackgroundTransparency = 1.000
+ApplyAimRange_Roundify_4px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+ApplyAimRange_Roundify_4px_2.Selectable = true
+ApplyAimRange_Roundify_4px_2.Size = UDim2.new(1, 0, 1, 0)
+ApplyAimRange_Roundify_4px_2.ZIndex = 2
+ApplyAimRange_Roundify_4px_2.Image = "rbxassetid://3570695787"
+ApplyAimRange_Roundify_4px_2.ImageColor3 = Color3.fromRGB(70, 70, 70)
+ApplyAimRange_Roundify_4px_2.ScaleType = Enum.ScaleType.Slice
+ApplyAimRange_Roundify_4px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+ApplyAimRange_Roundify_4px_2.SliceScale = 0.040
+
+Donate.Name = "Donate"
+Donate.Parent = Container
+Donate.AnchorPoint = Vector2.new(0.5, 0.5)
+Donate.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Donate.BackgroundTransparency = 1.000
+Donate.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Donate.BorderSizePixel = 0
+Donate.Position = UDim2.new(0.497964501, 0, 0.495636642, 0)
+Donate.Size = UDim2.new(0, 132, 0, 29)
+Donate.ZIndex = 3
+Donate.Font = Enum.Font.SourceSans
+Donate.Text = "Donate"
+Donate.TextColor3 = Color3.fromRGB(255, 255, 255)
+Donate.TextSize = 14.000
+
+ApplyAimRange_Roundify_4px_3.Name = "ApplyAimRange_Roundify_4px"
+ApplyAimRange_Roundify_4px_3.Parent = Donate
+ApplyAimRange_Roundify_4px_3.Active = true
+ApplyAimRange_Roundify_4px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+ApplyAimRange_Roundify_4px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ApplyAimRange_Roundify_4px_3.BackgroundTransparency = 1.000
+ApplyAimRange_Roundify_4px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+ApplyAimRange_Roundify_4px_3.Selectable = true
+ApplyAimRange_Roundify_4px_3.Size = UDim2.new(1, 0, 1, 0)
+ApplyAimRange_Roundify_4px_3.ZIndex = 2
+ApplyAimRange_Roundify_4px_3.Image = "rbxassetid://3570695787"
+ApplyAimRange_Roundify_4px_3.ImageColor3 = Color3.fromRGB(70, 70, 70)
+ApplyAimRange_Roundify_4px_3.ScaleType = Enum.ScaleType.Slice
+ApplyAimRange_Roundify_4px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+ApplyAimRange_Roundify_4px_3.SliceScale = 0.040
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+function Notify(NTitle, NDesc, NDuration)
+	
+	local NotifyCoroutine = coroutine.wrap(function()
+	-- Instances:
+	
+	local Notification = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local Title = Instance.new("TextLabel")
+	local Desc = Instance.new("TextLabel")
+	
+	--Properties:
+	
+	Notification.Name = "Notification"
+	Notification.Parent = game.CoreGui
+	Notification.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+	Frame.Parent = Notification
+	Frame.AnchorPoint = Vector2.new(1, 0)
+	Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Frame.BorderSizePixel = 0
+	Frame.Position = UDim2.new(1, 0, 0.833000004, 0)
+	Frame.Size = UDim2.new(0.1, 0, 0.09, 0)
+	
+	Title.Name = "Title"
+	Title.Parent = Frame
+	Title.AnchorPoint = Vector2.new(0.5, 0.5)
+	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Title.BackgroundTransparency = 1.000
+	Title.Position = UDim2.new(0.5, 0, 0.230000004, 0)
+	Title.Size = UDim2.new(0, 196, 0, 38)
+	Title.Font = Enum.Font.SourceSans
+	Title.Text = "Ez Hub"
+	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Title.TextSize = 20.000
+	
+	Desc.Name = "Desc"
+	Desc.Parent = Frame
+	Desc.AnchorPoint = Vector2.new(0.5, 0.5)
+	Desc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Desc.BackgroundTransparency = 1.000
+	Desc.Position = UDim2.new(0.5, 0, 0.600000024, 0)
+	Desc.Size = UDim2.new(0, 180, 0, 50)
+	Desc.Font = Enum.Font.SourceSans
+	Desc.Text = "Description"
+	Desc.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Desc.TextSize = 14.000
+	Desc.TextWrapped = true
+		
+		-- Actual Script
+		Frame.Position = UDim2.new(1.5, 0, 0.833000004, 0)
+		
+		Desc.Text = NDesc
+		Title.Text = NTitle
+		
+		Frame:TweenPosition(UDim2.new(0.998, 0,0.833, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine)
+		wait(tonumber(NDuration))
+		Frame:TweenPosition(UDim2.new(1.2, 0, 0.833, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine)
+		wait(0.45)
+		Notification:Destroy()
+	end)
+	NotifyCoroutine()
+end
+
+-- Minimization of Launcher
+
+local launcheropened = true
+
+Launcher.Minimize.MouseButton1Click:Connect(function()
+    if launcheropened then
+        launcheropened = false
+		Launcher.Container:TweenSize(UDim2.new(1, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.15)
+        Launcher.Minimize.Text = "+"
+        wait(0.04)
+        for i,v in pairs(Launcher.Container:GetDescendants()) do
+            if v:IsA("TextBox") or v:IsA("Frame") or v:IsA("ImageButton") or v:IsA("ImageLabel") or v:IsA("TextButton") or v:IsA("TextLabel") then
+				v.Visible = not v.Visible
+            end
+        end
+    else
+		launcheropened = true
+		Launcher.Container:TweenSize(UDim2.new(1, 0,6.981, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.15)
+		Launcher.Minimize.Text = "-"
+		wait(0.04)
+        for i,v in pairs(Launcher.Container:GetDescendants()) do
+			if v:IsA("TextBox") or v:IsA("Frame") or v:IsA("ImageButton") or v:IsA("ImageLabel") or v:IsA("TextButton") or v:IsA("TextLabel") then
+				v.Visible = not v.Visible
+            end
+        end
+    end
+end)
+
+-- Version Dropdown Script
+
+dropdownstatus = false
+
+Launcher.Container.DropDown.ScrollingFrame.ScrollBarImageTransparency = 1
+DropDownButton.MouseButton1Click:Connect(function()
+	if dropdownstatus then
+		dropdownstatus = false
+		DropDownButton.Text = "+"
+		for i,v in pairs(DropDown.ScrollingFrame:GetChildren()) do
+			if v:IsA("TextButton") then
+				v.Visible = false
+			end
+		end
+		Launcher.Container.DropDown.ScrollingFrame.ScrollBarImageTransparency = 1
+		DropDown.ScrollingFrame:TweenSize(UDim2.new(1, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.15)
+	else
+		dropdownstatus = true
+		DropDownButton.Text = "-"
+		for i,v in pairs(DropDown.ScrollingFrame:GetChildren()) do
+			if v:IsA("TextButton") then
+				v.Visible = true
+			end
+		end
+		Launcher.Container.DropDown.ScrollingFrame.ScrollBarImageTransparency = 0
+		DropDown.ScrollingFrame:TweenSize(UDim2.new(1, 0,2.686, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.15)
+	end
+end)
+
+for i,v in pairs(ScrollingFrame:GetChildren()) do
+	if v:IsA("TextButton") then
+		v.MouseButton1Click:Connect(function()
+			DropDown.TextLabel.Text = v.Text
+			dropdownstatus = false
+			DropDownButton.Text = "+"
+			for i,v in pairs(DropDown.ScrollingFrame:GetChildren()) do
+				if v:IsA("TextButton") then
+					v.Visible = false
+				end
+			end
+			Launcher.Container.DropDown.ScrollingFrame.ScrollBarImageTransparency = 1
+			DropDown.ScrollingFrame:TweenSize(UDim2.new(1, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 0.15)
+		end)
+	end
+end
+
+Donate.MouseButton1Click:Connect(function()
+	local TeleportService = game:GetService("TeleportService")
+	Notify("Ez Hub", "Teleporting to Donation Handler in 3 seconds", 3)
+	wait(4)
+	TeleportService:Teleport(5567745962, game:GetService("Players").LocalPlayer)
+end)
+
+CopyDiscord.MouseButton1Click:Connect(function()
+	if setclipboard then
+		setclipboard("https://discord.gg/tuWcU7Q")
+		Notify("Ez Hub", "Copied Discord to Clipboard", 5)
+	else
+		Notify("Ez Hub", "Your exploit does not support setclipboard. This most likely means that Ez Hub wont work.", 5)
+	end
+end)
+
+local CanLaunch
+
+Launch.MouseButton1Click:Connect(function()
+	if string.find(DropDown.TextLabel.Text, "Latest") and CanLaunch ~= true then
+		-- Launch Latest Ez Hub
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub2.3.lua"), true))()
+	elseif DropDown.TextLabel.Text == "2.3" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub2.3.lua"), true))()
+	elseif DropDown.TextLabel.Text == "2.2" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub2.2.lua"), true))()
+	elseif DropDown.TextLabel.Text == "2.1" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub2.1.lua"), true))()
+	elseif DropDown.TextLabel.Text == "2.0" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub2.0.lua"), true))()
+	elseif DropDown.TextLabel.Text == "1.9" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub1.9.lua"), true))()
+	elseif DropDown.TextLabel.Text == "1.8" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub1.8.lua"), true))()
+	elseif DropDown.TextLabel.Text == "1.7" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub1.7.txt"), true))()
+	elseif DropDown.TextLabel.Text == "1.6" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub1.6.txt"), true))()
+	elseif DropDown.TextLabel.Text == "1.5" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub1.5.txt"), true))()
+	elseif DropDown.TextLabel.Text == "(ALPHA) 0.2" then
+		CanLaunch = true
+		EzHubLauncher:Destroy()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/debug420/Ez-Hub/master/Ez%20Hub%20(OLD).txt"), true))()
+	end
+end)
+
+function dragify(MainFrame)
+	
+	dragging = nil
+	dragInput = nil
+	dragStart = nil
+	startPos = nil
+	
+	local function update(input)
+		Delta = input.Position - dragStart
+		Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+		game:GetService("TweenService"):Create(MainFrame, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+	
+	MainFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = MainFrame.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	MainFrame.InputChanged:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+
+dragify(Launcher)

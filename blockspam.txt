@@ -1,0 +1,373 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+repeat wait() until game:IsLoaded() and game:GetService("CoreGui") and game:GetService("Players").LocalPlayer and game:GetService("Players").LocalPlayer.PlayerGui and game:GetService("Players").LocalPlayer.Character and game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid")
+local BlockSpam = Instance.new("ScreenGui")
+local MainFrame = Instance.new("ImageLabel")
+local Close = Instance.new("ImageButton")
+local MinimizeComment = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local DestroyGui = Instance.new("ImageButton")
+local CloseComment = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local ButtonRound = Instance.new("ImageLabel")
+local StartAndStop = Instance.new("TextButton")
+local Circle = Instance.new("ImageLabel")
+local SpeedAmount = Instance.new("TextBox")
+local Recommend = Instance.new("TextLabel")
+local Minimized = Instance.new("ImageLabel")
+local Open = Instance.new("TextButton")
+local plr = game.Players.LocalPlayer
+
+ function respawn()
+	plr.Character:FindFirstChildOfClass('Humanoid').Health = 0
+	plr.Character:BreakJoints()
+	for _,v in pairs(plr.Character:GetChildren()) do
+		if v:IsA("BasePart") then
+			v:Destroy()
+		end
+	end
+end
+
+
+function RunCheck()
+    if syn.queue_on_teleport then
+        syn.queue_on_teleport('loadstring(game:HttpGet("https://pastebin.com/raw/Lp1S4fJW"))()')
+    end
+end
+
+BlockSpam.Name = "BlockSpam"
+BlockSpam.Parent = game.CoreGui
+BlockSpam.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = BlockSpam
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0.333333373, 0, 0.340291351, 0)
+MainFrame.Size = UDim2.new(0, 445, 0, 259)
+MainFrame.Image = "rbxassetid://3570695787"
+MainFrame.ImageColor3 = Color3.fromRGB(31, 31, 31)
+MainFrame.ScaleType = Enum.ScaleType.Slice
+MainFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+MainFrame.SliceScale = 0.120
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.LayoutOrder = 10
+Close.Position = UDim2.new(0.973999977, -16, 0.0199999996, 0)
+Close.Size = UDim2.new(0, 17, 0, 19)
+Close.Image = "rbxassetid://4316758972"
+Close.ImageColor3 = Color3.fromRGB(77, 77, 77)
+
+MinimizeComment.Name = "MinimizeComment"
+MinimizeComment.Parent = Close
+MinimizeComment.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MinimizeComment.BackgroundTransparency = 1.000
+MinimizeComment.Position = UDim2.new(-1.12941241, 0, 1.33810592, 0)
+MinimizeComment.Size = UDim2.new(0, 55, 0, 25)
+MinimizeComment.Visible = false
+MinimizeComment.Image = "rbxassetid://3570695787"
+MinimizeComment.ImageColor3 = Color3.fromRGB(39, 39, 39)
+MinimizeComment.ScaleType = Enum.ScaleType.Slice
+MinimizeComment.SliceCenter = Rect.new(100, 100, 100, 100)
+MinimizeComment.SliceScale = 0.120
+
+TextLabel.Parent = MinimizeComment
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.16838257, 0)
+TextLabel.Size = UDim2.new(0, 55, 0, 18)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Minimize"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+DestroyGui.Name = "DestroyGui"
+DestroyGui.Parent = MainFrame
+DestroyGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestroyGui.BackgroundTransparency = 1.000
+DestroyGui.LayoutOrder = 9
+DestroyGui.Position = UDim2.new(0.911235929, -16, 0.0199999996, 0)
+DestroyGui.Size = UDim2.new(0, 17, 0, 19)
+DestroyGui.Image = "rbxassetid://4490733451"
+DestroyGui.ImageColor3 = Color3.fromRGB(184, 26, 28)
+
+CloseComment.Name = "CloseComment"
+CloseComment.Parent = DestroyGui
+CloseComment.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseComment.BackgroundTransparency = 1.000
+CloseComment.Position = UDim2.new(-1.60000002, 0, 1.49600005, 0)
+CloseComment.Size = UDim2.new(0, 73, 0, 25)
+CloseComment.Visible = false
+CloseComment.Image = "rbxassetid://3570695787"
+CloseComment.ImageColor3 = Color3.fromRGB(39, 39, 39)
+CloseComment.ScaleType = Enum.ScaleType.Slice
+CloseComment.SliceCenter = Rect.new(100, 100, 100, 100)
+CloseComment.SliceScale = 0.120
+
+print(CloseComment.Parent)
+print(CloseComment)
+
+TextLabel_2.Parent = CloseComment
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.168383151, 0)
+TextLabel_2.Size = UDim2.new(0, 70, 0, 18)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Destroy Gui"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(0, 139, 0, 24)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Block Spam"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Credit.Name = "Credit"
+Credit.Parent = MainFrame
+Credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credit.BackgroundTransparency = 1.000
+Credit.Position = UDim2.new(0, 0, 0.0926640928, 0)
+Credit.Size = UDim2.new(0, 76, 0, 13)
+Credit.Font = Enum.Font.SourceSans
+Credit.Text = "Blaroo#8041"
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credit.TextScaled = true
+Credit.TextSize = 14.000
+Credit.TextWrapped = true
+
+ButtonRound.Name = "ButtonRound"
+ButtonRound.Parent = MainFrame
+ButtonRound.Active = true
+ButtonRound.AnchorPoint = Vector2.new(0.5, 0.5)
+ButtonRound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonRound.BackgroundTransparency = 1.000
+ButtonRound.Position = UDim2.new(0.522471905, 0, 0.781814754, 0)
+ButtonRound.Selectable = true
+ButtonRound.Size = UDim2.new(0.40224719, 0, 0.158378333, 0)
+ButtonRound.Image = "rbxassetid://3570695787"
+ButtonRound.ImageColor3 = Color3.fromRGB(44, 44, 44)
+ButtonRound.ScaleType = Enum.ScaleType.Slice
+ButtonRound.SliceCenter = Rect.new(100, 100, 100, 100)
+ButtonRound.SliceScale = 0.120
+
+StartAndStop.Name = "StartAndStop"
+StartAndStop.Parent = ButtonRound
+StartAndStop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StartAndStop.BackgroundTransparency = 1.000
+StartAndStop.Size = UDim2.new(0, 179, 0, 41)
+StartAndStop.Font = Enum.Font.SourceSans
+StartAndStop.Text = "Start"
+StartAndStop.TextColor3 = Color3.fromRGB(255, 255, 255)
+StartAndStop.TextSize = 14.000
+
+
+Circle.Name = "Circle"
+Circle.Parent = BlockSpam.MainFrame.ButtonRound.StartAndStop
+Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle.BackgroundTransparency = 1.000
+Circle.ZIndex = 10
+Circle.Image = "rbxassetid://266543268"
+Circle.ImageTransparency = 0.900
+
+SpeedAmount.Name = "SpeedAmount"
+SpeedAmount.Parent = MainFrame
+SpeedAmount.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+SpeedAmount.BorderColor3 = Color3.fromRGB(44, 44, 44)
+SpeedAmount.Position = UDim2.new(0.316853911, 0, 0.455598444, 0)
+SpeedAmount.Size = UDim2.new(0, 183, 0, 43)
+SpeedAmount.Font = Enum.Font.SourceSans
+SpeedAmount.PlaceholderColor3 = Color3.fromRGB(217, 217, 217)
+SpeedAmount.PlaceholderText = "Amount of speed"
+SpeedAmount.Text = ""
+SpeedAmount.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedAmount.TextSize = 14.000
+
+Recommend.Name = "Recommend"
+Recommend.Parent = MainFrame
+Recommend.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Recommend.BackgroundTransparency = 1.000
+Recommend.Position = UDim2.new(0.312359542, 0, 0.227799222, 0)
+Recommend.Size = UDim2.new(0, 183, 0, 46)
+Recommend.Font = Enum.Font.SourceSans
+Recommend.Text = "Recommended speed is 3  if you put words it will bug out, Stop if the hats bug out"
+Recommend.TextColor3 = Color3.fromRGB(255, 255, 255)
+Recommend.TextScaled = true
+Recommend.TextSize = 14.000
+Recommend.TextWrapped = true
+
+Minimized.Name = "Minimized"
+Minimized.Parent = BlockSpam
+Minimized.Active = true
+Minimized.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimized.BackgroundTransparency = 1.000
+Minimized.Position = UDim2.new(0.939597368, 0, 0.94620347, 0)
+Minimized.Size = UDim2.new(0, 63, 0, 23)
+Minimized.Visible = false
+Minimized.Image = "rbxassetid://3570695787"
+Minimized.ImageColor3 = Color3.fromRGB(31, 31, 31)
+Minimized.ScaleType = Enum.ScaleType.Slice
+Minimized.SliceCenter = Rect.new(100, 100, 100, 100)
+Minimized.SliceScale = 0.120
+
+Open.Name = "Open"
+Open.Parent = Minimized
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BackgroundTransparency = 1.000
+Open.Position = UDim2.new(-0.0123809576, 0, -0.0105217695, 0)
+Open.Size = UDim2.new(0, 63, 0, 23)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 14.000
+
+
+StartAndStop.MouseButton1Click:Connect(function()	
+	
+if StartAndStop.Text == "Start" then 
+StartAndStop.Text = "Stop"
+while wait(SpeedAmount.Text) do
+ for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+    if v:IsA("Accessory")  and v.Handle:FindFirstChild("Mesh") or v:IsA("Hat") and v.Handle:FindFirstChild("Mesh") or v:IsA("Accessory")  and v.Handle:FindFirstChild("SpecialMesh") then
+   local ag = v.Handle:FindFirstChild("Mesh") or v.Handle:FindFirstChild("SpecialMesh")
+    ag:Destroy()
+    v.Parent = game.Workspace
+
+   
+    end
+  
+ end
+respawn()
+		end
+    elseif StartAndStop.Text == "Stop" then 
+        RunCheck()
+   game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
+
+	end
+	
+	end)
+
+
+
+
+
+	local button = Close
+	local Comment = MinimizeComment
+	local Openbutton = Minimized
+	local mainui = MainFrame
+	
+	button.MouseButton1Click:Connect(function()
+		Openbutton.Visible = true
+		mainui.Visible = false
+		
+	end)
+	
+	button.MouseEnter:Connect(function()
+		Comment.Visible = true
+		
+	end)
+	
+	button.MouseLeave:Connect(function()
+		Comment.Visible = false
+		
+	end)
+
+
+	DestroyGui.MouseButton1Click:Connect(function()
+		Minimized:Destroy()
+		MainFrame:Destroy()
+		
+	end)
+	DestroyGui.MouseEnter:Connect(function()
+		CloseComment.Visible = true
+		
+	end)
+	
+	DestroyGui.MouseLeave:Connect(function()
+		CloseComment.Visible = false
+		
+	end)
+
+
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	
+	local function CircleClick(Button, X, Y)
+			
+			Button.ClipsDescendants = true
+			
+			local Circle = Circle:Clone()
+				Circle.Parent = Button
+				local NewX = X - Circle.AbsolutePosition.X
+				local NewY = Y - Circle.AbsolutePosition.Y
+				Circle.Position = UDim2.new(0, NewX, 0, NewY)
+			
+			local Size = 0
+				if Button.AbsoluteSize.X > Button.AbsoluteSize.Y then
+					 Size = Button.AbsoluteSize.X*1.5
+				elseif Button.AbsoluteSize.X < Button.AbsoluteSize.Y then
+					 Size = Button.AbsoluteSize.Y*1.5
+                elseif Button.AbsoluteSize.X == Button.AbsoluteSize.Y then																																																																			
+                    
+					Size = Button.AbsoluteSize.X*1.5
+				end
+			
+			local Time = 0.5
+				Circle:TweenSizeAndPosition(UDim2.new(0, Size, 0, Size), UDim2.new(0.5, -Size/2, 0.5, -Size/2), "Out", "Quad", Time, false, nil)
+				for i=1,10 do
+					Circle.ImageTransparency = Circle.ImageTransparency + 0.01
+					wait(Time/10)
+				end
+				Circle:Destroy()
+	end
+	
+	
+	StartAndStop.MouseButton1Click:Connect(function()
+		CircleClick(StartAndStop, Mouse.X, Mouse.Y) 
+	end)
+	
+	
+	
+
+
+
+
+	local Frame = MainFrame
+	
+	
+	Frame.Selectable = true
+	Frame.Active = true
+	Frame.Draggable = true
+
+
+	local script = Instance.new('LocalScript', Open)
+
+	local button = Open
+	local MainFrame = MainFrame
+	
+	
+	
+	
+	button.MouseButton1Click:Connect(function()
+		MainFrame.Visible = true
+		button.Parent.Visible = false
+		
+end)

