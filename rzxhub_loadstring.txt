@@ -64,7 +64,7 @@ function onKeyPress(inputObject, gameProcessedEvent)
 			MainFrame.Visible = false
 		end
 	end
-end
+end)
 
 game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 
@@ -142,7 +142,7 @@ misctab.MouseButton1Click:Connect(function()
 	op.visible = false
 	games.visible = false
 	hubs.visible = false
-end
+end)
 
 optab.Name = "optab"
 optab.Parent = MainFrame
@@ -162,7 +162,7 @@ optab.MouseButton1Click:Connect(function()
 	op.visible = true
 	games.visible = false
 	hubs.visible = false
-end
+end)
 
 gamestab.Name = "gamestab"
 gamestab.Parent = MainFrame
@@ -182,7 +182,7 @@ gamestab.MouseButton1Click:Connect(function()
 	op.visible = false
 	games.visible = true
 	hubs.visible = false
-end
+end)
 
 hubstab.Name = "hubstab"
 hubstab.Parent = MainFrame
@@ -202,7 +202,7 @@ hubstab.MouseButton1Click:Connect(function()
 	op.visible = true
 	games.visible = false
 	hubs.visible = true
-end
+end)
 
 misc.Name = "misc"
 misc.Parent = MainFrame
@@ -280,7 +280,6 @@ feinvisible.TextWrapped = true
 feinvisible.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20invisible.txt'),true))()
 end)
-
 
 rejoin.Name = "rejoin"
 rejoin.Parent = misc
