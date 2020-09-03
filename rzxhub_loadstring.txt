@@ -1,5 +1,3 @@
--- Made By mem64#4360
-
 -- Instances:
 
 local rzxhub = Instance.new("ScreenGui")
@@ -126,7 +124,7 @@ neptunianv.TextColor3 = Color3.fromRGB(255, 255, 255)
 neptunianv.TextScaled = true
 neptunianv.TextSize = 9.000
 neptunianv.TextWrapped = true
-BUTTONNAME.MouseButton1Click:Connect(function()
+neptunianv.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/neptunevfix.txt'),true))()
 end)
 
