@@ -449,7 +449,7 @@ falconpunch.TextScaled = true
 falconpunch.TextSize = 9.000
 falconpunch.TextWrapped = true
 falconpunch.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://github.com/rhizomacomp10/rzxhub/edit/master/punchgui.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/punchgui.txt'),true))()
 end)
 
 TextLabel_6.Parent = Frame
