@@ -161,7 +161,7 @@ feinvisible.TextScaled = true
 feinvisible.TextSize = 9.000
 feinvisible.TextWrapped = true
 feinvisible.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20invisible.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/feinvisible.txt'),true))()
 end)
 
 bang.Name = "bang"
@@ -208,7 +208,7 @@ febuild.TextScaled = true
 febuild.TextSize = 9.000
 febuild.TextWrapped = true
 febuild.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/FE%20Build.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/FEBuild.txt'),true))()
 end)
 
 TextLabel_3.Parent = Frame
@@ -238,7 +238,7 @@ pp.TextScaled = true
 pp.TextSize = 9.000
 pp.TextWrapped = true
 pp.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/pp%20script%20(needs%209%20fedoras).txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/ppscript.txt'),true))()
 end)
 
 blockspam.Name = "blockspam"
@@ -285,7 +285,7 @@ prisonbreaker.TextScaled = true
 prisonbreaker.TextSize = 9.000
 prisonbreaker.TextWrapped = true
 prisonbreaker.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Prison%20Breaker%20v1.5.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/PrisonBreaker.txt'),true))()
 end)
 
 mizthub.Name = "mizthub"
@@ -302,7 +302,7 @@ mizthub.TextScaled = true
 mizthub.TextSize = 9.000
 mizthub.TextWrapped = true
 mizthub.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/mizt%20hub.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/mizthub.txt'),true))()
 end)
 
 rhstitan.Name = "rhstitan"
@@ -336,7 +336,7 @@ ezhub.TextScaled = true
 ezhub.TextSize = 9.000
 ezhub.TextWrapped = true
 ezhub.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Ez%20Hub.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/EzHub.txt'),true))()
 end)
 
 kohlsadminhouse.Name = "kohlsadminhouse"
@@ -353,7 +353,7 @@ kohlsadminhouse.TextScaled = true
 kohlsadminhouse.TextSize = 9.000
 kohlsadminhouse.TextWrapped = true
 kohlsadminhouse.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Kohl's%20Admin%20House%20Kick%20%26%20Ban%20Gui.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/KohlsAdminHouse.txt'),true))()
 end)
 
 ultfehub.Name = "ultfehub"
@@ -400,7 +400,7 @@ trollgui.TextScaled = true
 trollgui.TextSize = 9.000
 trollgui.TextWrapped = true
 trollgui.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/troll%20gui.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/trollgui.txt'),true))()
 end)
 
 rejoin.Name = "rejoin"
@@ -434,7 +434,7 @@ fehub.TextScaled = true
 fehub.TextSize = 9.000
 fehub.TextWrapped = true
 fehub.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20hub.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fehub.txt'),true))()
 end)
 
 falconpunch.Name = "falconpunch"
@@ -481,7 +481,7 @@ topkek.TextScaled = true
 topkek.TextSize = 9.000
 topkek.TextWrapped = true
 topkek.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Topkek_3.0.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Topkek.txt'),true))()
 end)
 
 fekill.Name = "fekill"
@@ -498,7 +498,7 @@ fekill.TextScaled = true
 fekill.TextSize = 9.000
 fekill.TextWrapped = true
 fekill.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20kill%20(needs%20tool).txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fekill.txt'),true))()
 end)
 
 ImageLabel.Parent = Frame
