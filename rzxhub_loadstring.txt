@@ -1,0 +1,512 @@
+-- Made By mem64#4360
+
+-- Instances:
+
+local rzxhub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local networkbypass1 = Instance.new("TextButton")
+local networkbypass2 = Instance.new("TextButton")
+local neptunianv = Instance.new("TextButton")
+local jojostand = Instance.new("TextButton")
+local feinvisible = Instance.new("TextButton")
+local bang = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local febuild = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local pp = Instance.new("TextButton")
+local blockspam = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local prisonbreaker = Instance.new("TextButton")
+local mizthub = Instance.new("TextButton")
+local rhstitan = Instance.new("TextButton")
+local ezhub = Instance.new("TextButton")
+local kohlsadminhouse = Instance.new("TextButton")
+local ultfehub = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local trollgui = Instance.new("TextButton")
+local rejoin = Instance.new("TextButton")
+local fehub = Instance.new("TextButton")
+local falconpunch = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local topkek = Instance.new("TextButton")
+local fekill = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+rzxhub.Name = "rzxhub"
+rzxhub.Parent = game.CoreGui
+rzxhub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = rzxhub
+Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0.486410499, 0, 0.408366531, 0)
+Frame.Size = UDim2.new(0, 412, 0, 282)
+Frame.Active = true
+Frame.Draggable = true
+function onKeyPress(inputObject, gameProcessedEvent)
+if inputObject.KeyCode == Enum.KeyCode.Q then
+if Frame.Visible == false then
+Frame.Visible = true
+else
+Frame.Visible = false
+end
+end
+end
+
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+
+TextFrame.Name = "TextFrame"
+TextFrame.Parent = Frame
+TextFrame.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+TextFrame.BorderSizePixel = 0
+TextFrame.Position = UDim2.new(-0.00145358487, 0, -0.000724351092, 0)
+TextFrame.Size = UDim2.new(0, 412, 0, 45)
+
+TextLabel.Parent = TextFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, -0.0666666031, 0)
+TextLabel.Size = UDim2.new(0, 412, 0, 50)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "RZX Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 21.000
+
+networkbypass1.Name = "networkbypass1"
+networkbypass1.Parent = Frame
+networkbypass1.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+networkbypass1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+networkbypass1.BorderSizePixel = 0
+networkbypass1.Position = UDim2.new(0.0194174722, 0, 0.198317796, 0)
+networkbypass1.Size = UDim2.new(0, 90, 0, 25)
+networkbypass1.Font = Enum.Font.GothamBold
+networkbypass1.Text = "NetworkBypass1"
+networkbypass1.TextColor3 = Color3.fromRGB(255, 255, 255)
+networkbypass1.TextScaled = true
+networkbypass1.TextSize = 9.000
+networkbypass1.TextWrapped = true
+networkbypass1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/networkbypass.txt'),true))()
+end)
+
+networkbypass2.Name = "networkbypass2"
+networkbypass2.Parent = Frame
+networkbypass2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+networkbypass2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+networkbypass2.BorderSizePixel = 0
+networkbypass2.Position = UDim2.new(0.019417474, 0, 0.316950947, 0)
+networkbypass2.Size = UDim2.new(0, 90, 0, 25)
+networkbypass2.Font = Enum.Font.GothamBold
+networkbypass2.Text = "NetworkBypass2"
+networkbypass2.TextColor3 = Color3.fromRGB(255, 255, 255)
+networkbypass2.TextScaled = true
+networkbypass2.TextSize = 9.000
+networkbypass2.TextWrapped = true
+networkbypass2.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/networkbypass2.txt'),true))()
+end)
+
+neptunianv.Name = "neptunianv"
+neptunianv.Parent = Frame
+neptunianv.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+neptunianv.BorderColor3 = Color3.fromRGB(27, 42, 53)
+neptunianv.BorderSizePixel = 0
+neptunianv.Position = UDim2.new(0.262135893, 0, 0.198317796, 0)
+neptunianv.Size = UDim2.new(0, 90, 0, 25)
+neptunianv.Font = Enum.Font.GothamBold
+neptunianv.Text = "NeptunianV"
+neptunianv.TextColor3 = Color3.fromRGB(255, 255, 255)
+neptunianv.TextScaled = true
+neptunianv.TextSize = 9.000
+neptunianv.TextWrapped = true
+BUTTONNAME.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/neptunevfix.txt'),true))()
+end)
+
+jojostand.Name = "jojostand"
+jojostand.Parent = Frame
+jojostand.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+jojostand.BorderColor3 = Color3.fromRGB(27, 42, 53)
+jojostand.BorderSizePixel = 0
+jojostand.Position = UDim2.new(0.262135893, 0, 0.316950947, 0)
+jojostand.Size = UDim2.new(0, 90, 0, 25)
+jojostand.Font = Enum.Font.GothamBold
+jojostand.Text = "jojostand"
+jojostand.TextColor3 = Color3.fromRGB(255, 255, 255)
+jojostand.TextScaled = true
+jojostand.TextSize = 9.000
+jojostand.TextWrapped = true
+jojostand.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/jojostand.txt'),true))()
+end)
+
+feinvisible.Name = "feinvisible"
+feinvisible.Parent = Frame
+feinvisible.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+feinvisible.BorderColor3 = Color3.fromRGB(27, 42, 53)
+feinvisible.BorderSizePixel = 0
+feinvisible.Position = UDim2.new(0.0194174498, 0, 0.42849189, 0)
+feinvisible.Size = UDim2.new(0, 90, 0, 25)
+feinvisible.Font = Enum.Font.GothamBold
+feinvisible.Text = "FE Invisible"
+feinvisible.TextColor3 = Color3.fromRGB(255, 255, 255)
+feinvisible.TextScaled = true
+feinvisible.TextSize = 9.000
+feinvisible.TextWrapped = true
+feinvisible.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20invisible.txt'),true))()
+end)
+
+bang.Name = "bang"
+bang.Parent = Frame
+bang.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+bang.BorderColor3 = Color3.fromRGB(27, 42, 53)
+bang.BorderSizePixel = 0
+bang.Position = UDim2.new(0.262135893, 0, 0.42849189, 0)
+bang.Size = UDim2.new(0, 90, 0, 25)
+bang.Font = Enum.Font.GothamBold
+bang.Text = "bang"
+bang.TextColor3 = Color3.fromRGB(255, 255, 255)
+bang.TextScaled = true
+bang.TextSize = 9.000
+bang.TextWrapped = true
+bang.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/bang.txt'),true))()
+end)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.74757278, 0, 0.893617034, 0)
+TextLabel_2.Size = UDim2.new(0, 90, 0, 19)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Hubs"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+febuild.Name = "febuild"
+febuild.Parent = Frame
+febuild.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+febuild.BorderColor3 = Color3.fromRGB(27, 42, 53)
+febuild.BorderSizePixel = 0
+febuild.Position = UDim2.new(0.262135893, 0, 0.543578982, 0)
+febuild.Size = UDim2.new(0, 90, 0, 25)
+febuild.Font = Enum.Font.GothamBold
+febuild.Text = "FE Build"
+febuild.TextColor3 = Color3.fromRGB(255, 255, 255)
+febuild.TextScaled = true
+febuild.TextSize = 9.000
+febuild.TextWrapped = true
+febuild.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/FE%20Build.txt'),true))()
+end)
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.504854321, 0, 0.663120568, 0)
+TextLabel_3.Size = UDim2.new(0, 90, 0, 19)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "more coming soon"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+pp.Name = "pp"
+pp.Parent = Frame
+pp.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+pp.BorderColor3 = Color3.fromRGB(27, 42, 53)
+pp.BorderSizePixel = 0
+pp.Position = UDim2.new(0.262135893, 0, 0.655705988, 0)
+pp.Size = UDim2.new(0, 90, 0, 25)
+pp.Font = Enum.Font.GothamBold
+pp.Text = "pp"
+pp.TextColor3 = Color3.fromRGB(255, 255, 255)
+pp.TextScaled = true
+pp.TextSize = 9.000
+pp.TextWrapped = true
+pp.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/pp%20script%20(needs%209%20fedoras).txt'),true))()
+end)
+
+blockspam.Name = "blockspam"
+blockspam.Parent = Frame
+blockspam.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+blockspam.BorderColor3 = Color3.fromRGB(27, 42, 53)
+blockspam.BorderSizePixel = 0
+blockspam.Position = UDim2.new(0.0194174498, 0, 0.779672921, 0)
+blockspam.Size = UDim2.new(0, 90, 0, 25)
+blockspam.Font = Enum.Font.GothamBold
+blockspam.Text = "Block Spam"
+blockspam.TextColor3 = Color3.fromRGB(255, 255, 255)
+blockspam.TextScaled = true
+blockspam.TextSize = 9.000
+blockspam.TextWrapped = true
+blockspam.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/blockspam.txt'),true))()
+end)
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0194174759, 0, 0.893617034, 0)
+TextLabel_4.Size = UDim2.new(0, 90, 0, 19)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Misc"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+prisonbreaker.Name = "prisonbreaker"
+prisonbreaker.Parent = Frame
+prisonbreaker.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+prisonbreaker.BorderColor3 = Color3.fromRGB(27, 42, 53)
+prisonbreaker.BorderSizePixel = 0
+prisonbreaker.Position = UDim2.new(0.504854321, 0, 0.198259175, 0)
+prisonbreaker.Size = UDim2.new(0, 90, 0, 25)
+prisonbreaker.Font = Enum.Font.GothamBold
+prisonbreaker.Text = "Prison Breaker v1.5"
+prisonbreaker.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonbreaker.TextScaled = true
+prisonbreaker.TextSize = 9.000
+prisonbreaker.TextWrapped = true
+prisonbreaker.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Prison%20Breaker%20v1.5.txt'),true))()
+end)
+
+mizthub.Name = "mizthub"
+mizthub.Parent = Frame
+mizthub.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+mizthub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mizthub.BorderSizePixel = 0
+mizthub.Position = UDim2.new(0.74757278, 0, 0.198259175, 0)
+mizthub.Size = UDim2.new(0, 90, 0, 25)
+mizthub.Font = Enum.Font.GothamBold
+mizthub.Text = "Mizt Hub"
+mizthub.TextColor3 = Color3.fromRGB(255, 255, 255)
+mizthub.TextScaled = true
+mizthub.TextSize = 9.000
+mizthub.TextWrapped = true
+mizthub.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/mizt%20hub.txt'),true))()
+end)
+
+rhstitan.Name = "rhstitan"
+rhstitan.Parent = Frame
+rhstitan.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+rhstitan.BorderColor3 = Color3.fromRGB(27, 42, 53)
+rhstitan.BorderSizePixel = 0
+rhstitan.Position = UDim2.new(0.504854321, 0, 0.315280437, 0)
+rhstitan.Size = UDim2.new(0, 90, 0, 25)
+rhstitan.Font = Enum.Font.GothamBold
+rhstitan.Text = "RHS 2 Titan"
+rhstitan.TextColor3 = Color3.fromRGB(255, 255, 255)
+rhstitan.TextScaled = true
+rhstitan.TextSize = 9.000
+rhstitan.TextWrapped = true
+rhstitan.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/robloxhighschool2titan.txt'),true))()
+end)
+
+ezhub.Name = "ezhub"
+ezhub.Parent = Frame
+ezhub.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+ezhub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ezhub.BorderSizePixel = 0
+ezhub.Position = UDim2.new(0.74757278, 0, 0.315280437, 0)
+ezhub.Size = UDim2.new(0, 90, 0, 25)
+ezhub.Font = Enum.Font.GothamBold
+ezhub.Text = "Ez Hub"
+ezhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ezhub.TextScaled = true
+ezhub.TextSize = 9.000
+ezhub.TextWrapped = true
+ezhub.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Ez%20Hub.txt'),true))()
+end)
+
+kohlsadminhouse.Name = "kohlsadminhouse"
+kohlsadminhouse.Parent = Frame
+kohlsadminhouse.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+kohlsadminhouse.BorderColor3 = Color3.fromRGB(27, 42, 53)
+kohlsadminhouse.BorderSizePixel = 0
+kohlsadminhouse.Position = UDim2.new(0.504854321, 0, 0.425209522, 0)
+kohlsadminhouse.Size = UDim2.new(0, 90, 0, 25)
+kohlsadminhouse.Font = Enum.Font.GothamBold
+kohlsadminhouse.Text = "Kohl's Admin House Kick and Ban"
+kohlsadminhouse.TextColor3 = Color3.fromRGB(255, 255, 255)
+kohlsadminhouse.TextScaled = true
+kohlsadminhouse.TextSize = 9.000
+kohlsadminhouse.TextWrapped = true
+kohlsadminhouse.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Kohl's%20Admin%20House%20Kick%20%26%20Ban%20Gui.txt'),true))()
+end)
+
+ultfehub.Name = "ultfehub"
+ultfehub.Parent = Frame
+ultfehub.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+ultfehub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ultfehub.BorderSizePixel = 0
+ultfehub.Position = UDim2.new(0.74757278, 0, 0.425209522, 0)
+ultfehub.Size = UDim2.new(0, 90, 0, 25)
+ultfehub.Font = Enum.Font.GothamBold
+ultfehub.Text = "Ultimate Fe Hub"
+ultfehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ultfehub.TextScaled = true
+ultfehub.TextSize = 9.000
+ultfehub.TextWrapped = true
+ultfehub.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/ultfehub.txt'),true))()
+end)
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.262135923, 0, 0.893617034, 0)
+TextLabel_5.Size = UDim2.new(0, 90, 0, 19)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "OP"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+trollgui.Name = "trollgui"
+trollgui.Parent = Frame
+trollgui.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+trollgui.BorderColor3 = Color3.fromRGB(27, 42, 53)
+trollgui.BorderSizePixel = 0
+trollgui.Position = UDim2.new(0.74757278, 0, 0.542230785, 0)
+trollgui.Size = UDim2.new(0, 90, 0, 25)
+trollgui.Font = Enum.Font.GothamBold
+trollgui.Text = "Troll Gui"
+trollgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+trollgui.TextScaled = true
+trollgui.TextSize = 9.000
+trollgui.TextWrapped = true
+trollgui.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/troll%20gui.txt'),true))()
+end)
+
+rejoin.Name = "rejoin"
+rejoin.Parent = Frame
+rejoin.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+rejoin.BorderColor3 = Color3.fromRGB(27, 42, 53)
+rejoin.BorderSizePixel = 0
+rejoin.Position = UDim2.new(0.0194174498, 0, 0.543578923, 0)
+rejoin.Size = UDim2.new(0, 90, 0, 25)
+rejoin.Font = Enum.Font.GothamBold
+rejoin.Text = "Rejoin"
+rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+rejoin.TextScaled = true
+rejoin.TextSize = 9.000
+rejoin.TextWrapped = true
+rejoin.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/rejoin.txt'),true))()
+end)
+
+fehub.Name = "fehub"
+fehub.Parent = Frame
+fehub.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+fehub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fehub.BorderSizePixel = 0
+fehub.Position = UDim2.new(0.74757278, 0, 0.659252048, 0)
+fehub.Size = UDim2.new(0, 90, 0, 25)
+fehub.Font = Enum.Font.GothamBold
+fehub.Text = "Fe Hub"
+fehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+fehub.TextScaled = true
+fehub.TextSize = 9.000
+fehub.TextWrapped = true
+fehub.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20hub.txt'),true))()
+end)
+
+falconpunch.Name = "falconpunch"
+falconpunch.Parent = Frame
+falconpunch.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+falconpunch.BorderColor3 = Color3.fromRGB(27, 42, 53)
+falconpunch.BorderSizePixel = 0
+falconpunch.Position = UDim2.new(0.262135893, 0, 0.77627331, 0)
+falconpunch.Size = UDim2.new(0, 90, 0, 25)
+falconpunch.Font = Enum.Font.GothamBold
+falconpunch.Text = "falconpunch"
+falconpunch.TextColor3 = Color3.fromRGB(255, 255, 255)
+falconpunch.TextScaled = true
+falconpunch.TextSize = 9.000
+falconpunch.TextWrapped = true
+falconpunch.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://github.com/rhizomacomp10/rzxhub/edit/master/punchgui.txt'),true))()
+end)
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.504854381, 0, 0.893617034, 0)
+TextLabel_6.Size = UDim2.new(0, 90, 0, 19)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Games"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+topkek.Name = "topkek"
+topkek.Parent = Frame
+topkek.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+topkek.BorderColor3 = Color3.fromRGB(27, 42, 53)
+topkek.BorderSizePixel = 0
+topkek.Position = UDim2.new(0.74757278, 0, 0.77627331, 0)
+topkek.Size = UDim2.new(0, 90, 0, 25)
+topkek.Font = Enum.Font.GothamBold
+topkek.Text = "TopKek 3.0"
+topkek.TextColor3 = Color3.fromRGB(255, 255, 255)
+topkek.TextScaled = true
+topkek.TextSize = 9.000
+topkek.TextWrapped = true
+topkek.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/Topkek_3.0.txt'),true))()
+end)
+
+fekill.Name = "fekill"
+fekill.Parent = Frame
+fekill.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+fekill.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fekill.BorderSizePixel = 0
+fekill.Position = UDim2.new(0.0194174517, 0, 0.659252048, 0)
+fekill.Size = UDim2.new(0, 90, 0, 25)
+fekill.Font = Enum.Font.GothamBold
+fekill.Text = "fe kill (needs tools)"
+fekill.TextColor3 = Color3.fromRGB(255, 255, 255)
+fekill.TextScaled = true
+fekill.TextSize = 9.000
+fekill.TextWrapped = true
+fekill.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rhizomacomp10/rzxhub/master/fe%20kill%20(needs%20tool).txt'),true))()
+end)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.616504848, 0, 0.0106382975, 0)
+ImageLabel.Size = UDim2.new(0, 36, 0, 37)
+ImageLabel.Image = "https://roblox.com/asset/?id=934663330"
+	        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "RZX Hub";
+            Text = "Press V To Close";
+        })
