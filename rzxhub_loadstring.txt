@@ -506,5 +506,5 @@ ImageLabel.Size = UDim2.new(0, 36, 0, 37)
 ImageLabel.Image = "https://roblox.com/asset/?id=934663330"
 	        game:GetService("StarterGui"):SetCore("SendNotification",{
             Title = "RZX Hub";
-            Text = "Press V To Close";
+            Text = "Press Q To Close";
         })
